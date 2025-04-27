@@ -484,6 +484,7 @@ img {
   color: #fff;
   width: 264px;
   line-height: 2;
+  font-size: 12px;
   letter-spacing: 0.04em;
   padding-left: 16px;
   height: 40px;
@@ -644,6 +645,7 @@ img {
   font-size: 12px;
   color: #8e8f99;
   margin-bottom: 4px;
+  color: #8e8f99;
 }
 .modal p {
   margin-bottom: 16px;
@@ -697,6 +699,10 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 
+.checkbox-wraper {
+  margin-bottom: 24px;
+}
+
 .checkbox-wraper input:checked ~ .checkbox {
   background-color: #404bbf;
 }
@@ -705,6 +711,10 @@ img {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.modal-form-wrapper-comment {
+  margin-bottom: 16px;
 }
 
 .checkbox {

@@ -711,7 +711,7 @@ img {
 }
 
 .checkbox-wraper label {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
 }

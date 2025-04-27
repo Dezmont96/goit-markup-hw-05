@@ -673,8 +673,8 @@ img {
   border: 1px solid #4d5ae5;
 }
 
-.modal-form-wrapper textarea:hover,
-.modal-form-wrapper textarea:focus {
+.modal-form-wrapper-comment textarea:hover,
+.modal-form-wrapper-comment textarea:focus {
   border: 1px solid #4d5ae5;
   border-color: #4d5ae5;
 }

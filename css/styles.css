@@ -703,7 +703,7 @@ img {
   margin-bottom: 24px;
 }
 
-.checkbox-wraper input:checked ~ .checkbox {
+.checkbox-wraper input:checked + .modal-label > .checkbox {
   background-color: #404bbf;
 }
 

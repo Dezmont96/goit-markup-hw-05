@@ -540,11 +540,11 @@
           </svg>
         </button>
 
-        <p>Leave your contacts and we will call you back</p>
+        <p class="modal-p">Leave your contacts and we will call you back</p>
 
         <form class="modal-form">
-          <div>
-            <label for="user-name">Name</label>
+          <div class="wraper-conteiner-modal">
+            <label class="modal-label" for="user-name">Name</label>
             <div class="modal-form-wrapper">
               <input type="text" name="name" value="" id="user-name" />
               <svg class="popup-icon" width="18" height="18">
@@ -553,8 +553,8 @@
             </div>
           </div>
 
-          <div>
-            <label for="user-phone">Phone</label>
+          <div class="wraper-conteiner-modal">
+            <label class="modal-label" for="user-phone">Phone</label>
             <div class="modal-form-wrapper">
               <input type="tel" name="phone" value="" id="user-phone" />
               <svg class="popup-icon" width="18" height="24">
@@ -563,8 +563,8 @@
             </div>
           </div>
 
-          <div>
-            <label for="user-email">Email</label>
+          <div class="wraper-conteiner-modal">
+            <label class="modal-label" for="user-email">Email</label>
             <div class="modal-form-wrapper">
               <input type="email" name="email" value="" id="user-email" />
               <svg class="popup-icon" width="18" height="24">
@@ -574,17 +574,17 @@
           </div>
 
           <div class="modal-form-wrapper">
-            <label for="user-comment">Comment</label>
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="tex-comment"
-              name="comment"
+              name="user-comment"
               id="user-comment"
-              placeholder="input text"
+              placeholder="Text input"
             ></textarea>
           </div>
 
           <div class="checkbox-wraper">
-            <label for="checkbox-privacy">
+            <label class="modal-label" for="checkbox-privacy">
               <input
                 class="visually-hidden"
                 type="checkbox"
